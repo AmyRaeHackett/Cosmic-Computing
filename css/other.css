@@ -59,8 +59,9 @@ body{
 }
 
 .info-btn {
-    width: 50%;
+    width: 50vh;
     height: 50px;
+    
     background-color: #343F4B; 
 
     color: #FFBA5C;

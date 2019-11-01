@@ -2390,7 +2390,7 @@ function clickElements() {
         $modalNext.hide();
         hideElements();
         $(".gif").show();
-        $(".gif").css({"width": "100%", "margin-left": "0", "margin-top": "2%"});
+        $(".gif").css({"width": "100%", "margin-left": "0", "margin-top": "-13%"});
 
     });
 
@@ -2402,7 +2402,7 @@ function clickElements() {
         $modalImage.hide();
         $modalNext.hide();
         hideElements();
-        $(".gif").css({"width": "100%", "margin-left": "0", "margin-top": "0%"});
+        $(".gif").css({"width": "100%", "margin-left": "0", "margin-top": "-13%"});
         $(".gif").show();
 
     });
@@ -3401,7 +3401,7 @@ var winAndLossCall = function () {
                             rMusic.pause();
                             $point.show();
                             $point.attr("src", "img/playfield/astronaut.png").css({
-                                "height": "15%",
+                                "height": "13vh",
                                 "width": "15%",
                                 "margin-left": "80%",
                                 "margin-top": "135%",
@@ -3562,7 +3562,7 @@ function instructions() {
     cantSkipDemo();
     var counter = 1;
     modal.style.display = "block";
-    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "9%", "width", "9%");
+    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "13vh");
     $modalTitle.text("Welcome to Cosmic Computing!").css("font-weight", "bold");
     $modalText.text("Hi there, I'm Hugo!");
     $modalNext.attr("src", "next.png");
@@ -3605,7 +3605,7 @@ function instructionsTwo() {
     modal.style.display = "block";
     var counter = 1;
     $modalText.text("Planets may harm your spaceship if you collide with them.");
-    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "9%", "width", "9%");
+    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "13vh");
     $modalImage.show();
     $modalTitle.hide();
     $(".gif").hide();
@@ -3647,7 +3647,7 @@ function instructionsThree() {
     var counter = 1;
     modal.style.display = "block";
     $modalNext.attr("src", "next.png");
-    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "9%", "width", "9%");
+    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "13vh");
     $modalTitle.hide();
     $(".gif").hide();
     $modalNext.show();
@@ -3691,7 +3691,7 @@ function instructionsFour() {
     $(".gif").hide();
     $modalNext.attr("src", "next.png");
     $modalImage.show();
-    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "9%", "width", "9%");
+    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "13vh");
     $modalTitle.hide();
     $modalText.text("In this level you have to cope with asteroids and falling stars.");
     $commandsOverlay.hide();
@@ -3734,7 +3734,7 @@ function instructionsFive() {
     modal.style.display = "block";
     $modalNext.attr("src", "next.png");
     $modalImage.show();
-    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "9%", "width", "9%");
+    $modalImage.attr("src", "img/playfield/astronaut.png").css("height", "13vh");
     $modalTitle.hide();
     $modalText.text("Now that you've learnt how to navigate your way around space, you are left to your own devices! Good luck!");
     $commandsOverlay.hide();
